@@ -1,0 +1,4 @@
+include README.rst
+include CHANGELOG.rst
+include {{project_name | replace('-', '_')}}/resources/{{js_project}}/*.js
+include {{project_name | replace('-', '_')}}/resources/registry.json
