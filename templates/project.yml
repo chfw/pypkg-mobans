@@ -1,0 +1,14 @@
+name: "{{project_name}}"
+organisation: "{{organisation}}"
+author: "{{author}}"
+contact: "{{contact}}"
+company: "{{company}}"
+version: "0.0.1"
+current_version: "0.0.1"
+release: "0.0.0"
+copyright_year: {{now.year}}
+license: {{license}}
+dependencies:
+  - lml==0.0.2
+  - pyecharts-jupyter-installer==0.0.3
+description: "{{description}}"
