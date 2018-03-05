@@ -36,3 +36,20 @@ static:
   - ".moban.d/tests/custom_requirements.txt.jj2": "tests/custom_requirements.txt.jj2"
   - Makefile: Makefile
   - CHANGELOG.rst: CHANGELOG.rst
+post-moban:
+  git-repo-files:
+    - "CHANGELOG.rst"
+    - "MANIFEST.in"
+    - "Makefile"
+    - "README.rst"
+    - "{{project_name}}.yml"
+    - "{{project_name | replace('-', '_')}}"
+    - "docs"
+    - "requirements.txt"
+    - "setup.py"
+    - "test.sh"
+    - "tests"
+    - ".gitignore"
+    - ".moban.d"
+    - ".travis.yml"
+    - ".moban.yml"
