@@ -6,7 +6,7 @@
 
 {% block features %}
 {%- endraw %}
-The project packages `{{js_project}} <https://github.com/{{organisation}}/{{js_project}}>`_ and distributes it via pypi.
+The project packages `{{js_project}} <https://github.com/echarts-maps/{{js_project}}>`_ and distributes it via pypi.
 {% raw -%}
 {% endblock %}
 {%- endraw %}
