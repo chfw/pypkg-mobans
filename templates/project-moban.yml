@@ -1,6 +1,8 @@
+requires:
+  - https://github.com/moremoban/pypi-mobans.git
 configuration:
   template_dir:
-  - "mobans/templates"
+  - "pypi-mobans:templates"
   - ".moban.d"
   configuration: {{project_name}}.yml
 targets:
